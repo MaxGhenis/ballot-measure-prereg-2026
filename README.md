@@ -12,7 +12,7 @@ The background is in [Testing California's bond funds against the billionaire ta
 
 ## What is withheld
 
-`SHA256SUMS` lists 1,299 files. This repository publishes 116 of them. The other 1,183 are third-party data without a redistribution license, and their checksums stay in `SHA256SUMS` so that any copy can be checked against them:
+`SHA256SUMS` lists 1,299 files. This repository publishes 116 of them. The other 1,183 are third-party data without a redistribution license, or files computed from them or listing them, and their checksums stay in `SHA256SUMS` so that any copy can be checked against them:
 
 | Path | Files | What it holds |
 |---|---|---|
@@ -21,4 +21,6 @@ The background is in [Testing California's bond funds against the billionaire ta
 | `evidence/history/` | 24 | Five years of daily fund prices from Yahoo Finance |
 | `results/spread_panel.json` | 1 | Daily spread changes computed from those prices |
 
-`scripts/capture.py` downloads the same data again from the public endpoints. `REGISTRATION.md` section 1 refers to `../memo.md`, an unpublished research memo; the post above summarizes its results.
+`scripts/capture.py` downloads the market data and two years of daily fund prices again from the public endpoints, and `scripts/panel.py` rebuilds the spread panel from a capture. A new download records its own retrieval time and current data, so it will not match the frozen checksums; the fund documents and the five-year price history have no download script.
+
+`FREEZE.md` and `RUNBOOK.md` are reproduced as they stood at the freeze: their paths, the "Public: not yet" line and the hand-off steps refer to the private repository where the study was built, and `shasum -c` needs `--ignore-missing` on this copy. `REGISTRATION.md` section 1 refers to `../memo.md`, an unpublished research memo; the post above summarizes its results.

@@ -1,0 +1,27 @@
+**APPROVE (ready to freeze).** N1 is fixed. No blocker or major finding remains; the residual issues below are minor.
+
+| Item | Status | Evidence checked |
+|---|---|---|
+| **N1: registered market capture** | **Fixed** | `missing_markets`, `registered_market_capture`, `captures_from` and `run()` implement the first qualifying market capture at or after the bar capture, with registered deadlines. Partial blocks and later reruns follow that rule; named alternatives are deviations. The two accepted empty-history strings match `capture.py`’s `fail(...)` calls. Connection failures do not count as answers, and a market record remains required. |
+| **N2: dropped states and missing days** | **Fixed for W0/W1; W2 residual below** | Preflight omissions drop states, including missing price files. Missing November 3 or a registered W0/W1 event day everywhere produces UNESTIMABLE. No remaining W0/W1 path retaining a return across a missing registered bar was found. |
+| **N3: capture sealing** | **Partly fixed; minor enforcement gap** | The RUNBOOK requires immediate sealing and prohibits reuse/deletion. Commits preserve captured files; manifest hashes and timestamps expose subsequent changes. Rename/merge/start-time checks work. `STAMP` is assigned at import and `started` before requests, so the one-hour check concerns start delay, not capture duration. See finding 1. |
+| **N4: retained basis** | **Fixed** | [NN’s saved statement](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/evidence/co/fiscal_impact_statements_2026.pdf), PDF p.28, printed p.6, specifies **$521.0 million in FY2027–28 refunds under current law**. §3.2 correctly discloses approximately −$0.098 billion retained versus −$0.619 billion gross, the unchanged midpoint, and the fiscal-year mismatch. |
+| **O-specification nit** | **Fixed** | The five values match their quoted benchmarks: CO132 −0.0682; ND2 −0.06465; SF C −0.060; MI26-1 −0.022; CA39 −0.020. [CO132’s year-five estimate](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/evidence/co/blue_book_prop132.txt:153) supports $68.2 million. All other 36 O rows contribute zero under the stated exclusions. |
+| **Integrity nit** | **Fixed** | `integrity()` checks every frozen file outside captures/results and lists uncovered registry, script, evidence and test files. |
+| **Malformed Yahoo capture nit** | **Fixed** | `missing_bars()` catches malformed/missing series; the registered-capture handling records unreadable candidates and continues. |
+| **W2 timetable nit** | **Fixed in documents** | December 11 appears in §8 and the RUNBOOK. External scheduling was outside this review. |
+| **Freeze quote rule** | **Fixed** | `freeze_prices.py:23` now requires an ask above zero, matching `kalshi_points()`. Recalculation matches all 144 priced and 14 unpriced rows; Idaho’s zero-volume, zero/zero quote is correctly unpriced. |
+
+1. **Minor — “Only sealed captures count” exceeds the automated checks.**  
+   [seal_capture.sh:13](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/scripts/seal_capture.sh:13) continues after OpenTimestamps failure and subsequently reports “sealed.” [sealed():279](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/scripts/run_analysis.py:279) checks metadata, without requiring a commit or matching timestamp receipt. Thus an uncommitted, untimestamped capture can qualify.  
+   **Fix:** fail sealing on timestamp-submission failure and require committed contents plus a matching receipt for eligibility; pending Bitcoin attestation can remain explicitly reported. Correctly sealed captures already leave evidence of later edits or deletion.
+
+2. **Minor — W2 can still retain a return across a missing day.**  
+   [window_bar_days():270](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/scripts/run_analysis.py:270) derives W2’s required dates from observed MUB bars. In a read-only reproduction, removing November 12 from every series produced empty preflight/drop lists, retained all 21 states, and returned primary status `OK`; November 13 retained the November 11→13 return.  
+   **Fix:** define W2’s expected trading calendar independently of captured observations, including its baseline, and check every series against it. Add this common-missing-day regression case.
+
+3. **Nit — two incorrect implementations survive the named tests.**  
+   [The first-market-capture test](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/tests/test_run_analysis.py:229) still passes when traversal prefers the last eligible capture: its fixture contains only one complete candidate. [The no-history test](/Users/maxghenis/reviews/policy-conditional-markets-2026-10/prereg-nov2026/tests/test_run_analysis.py:248) still passes after removing Polymarket’s empty-history allowance because its selected measure uses Kalshi.  
+   **Fix:** add a later complete capture with different probabilities, and parameterize the empty-history test over both venues.
+
+All **12 requested parameter cases passed** using a RAM-only filesystem harness; **14 targeted semantic regressions were caught**, with the two survivors described above. This was not a conventional full-suite pytest rerun. Hard-link handling is safe: `place()` unlinks the manifest before rewriting it, and no test writes through a shared data link. No files were changed or external actions taken.

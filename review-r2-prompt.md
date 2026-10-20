@@ -1,0 +1,12 @@
+# Adversarial review, round 2: pre-registration of the November 3, 2026 ballot-measure study (prereg-nov2026/, commit `a64cc99`)
+
+You are an independent reviewer. The sandbox is read-only and may have no shell; put everything in your final message. Do not contact anyone, post, or submit anything.
+
+Round 1 (`review-r1.md`) returned MAJOR FIXES with 14 findings. The response is `response-r1.md`; `git show 5eda361 b17b332 a64cc99` holds the changes. The registration is `REGISTRATION.md`, the steps `RUNBOOK.md`; it will be frozen with `scripts/freeze.sh` before October 30. Max's specification is quoted in `review-r1-prompt.md`.
+
+**Do three things.**
+1. **Round-diff.** For each of the 14 findings, check the fix in the files (code, registry, text), not the response's word. Flag anything half-fixed or newly wrong.
+2. **Registry audit.** The categories and fiscal figures were rebuilt by three research lanes (`lanes/out-audit_{CA,WEST,EAST}.md`, applied by `lanes/apply_audit.py`). Spot-check at least 15 rows against their cited official sources, weighted toward changed categories, every category R row, the Colorado interaction rules (`registry/interactions.csv`; the Colorado Legislative Council fiscal impact statements, PDF pp. 20, 27–28, 64) and a sample of N rows that rest on measure text alone. Check that `apply_audit.py` carried the audit into `registry/measures.csv` faithfully (including the San Francisco A–G split and its market mapping).
+3. **Code and design.** Read `scripts/estimate.py` (`pooled_test`, `joint_test`, `classify`), `scripts/run_analysis.py` (probabilities, settlement, fallback and omission, the expected-revenue exposure with pair terms, every window and specification), `scripts/power.py`, `scripts/capture.py`, `scripts/freeze_prices.py` and `scripts/freeze.sh`. Is each correct and does it match `REGISTRATION.md`? Is the A87 × 136 midpoint rule and its bounds sensitivity coherent? Is the joint H3 test valid as a gate? Do the tests (`tests/`) test what they claim? Anything that could be gamed after the freeze, or that would silently fail on election night?
+
+**Output.** A verdict: APPROVE (ready to freeze), MINOR FIXES, or MAJOR FIXES. A round-diff table. Numbered new findings with severity (blocker, major, minor, nit), the text or code, the evidence and a concrete fix. What you verified and how. Approve only if no blocker or major finding remains; minor findings and nits alone are compatible with APPROVE if you list them.

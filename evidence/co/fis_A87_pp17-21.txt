@@ -1,0 +1,201 @@
+                                                                            Amendment 87
+
+              Fiscal Impact Statement
+              Legislative Council Staff
+              Nonpartisan Services for Colorado’s Legislature
+
+
+
+AMENDMENT 87: GRADUATED INCOME TAX
+
+Analyst: Elizabeth Ramey, elizabeth.ramey@coleg.gov, 303-866-3522
+
+Date: September 10, 2026
+
+
+
+Summary Information
+Overview. The measure creates a graduated income tax beginning in tax year 2027 and uses the new tax
+revenue to provide funding for K-12 education, health care, and early child care and education.
+
+Types of impacts. The measure is projected to affect the following areas:
+
+•   State Revenue                                           •   School Districts
+•   State Expenditures
+Disclaimer. This fiscal impact statement has been prepared for a statewide ballot measure appearing at
+the 2026 statewide election. Any appropriations required to implement this measure will be addressed
+through the annual or supplemental budget process if this measure is approved by voters. For more
+information about this measure, please see the ballot information booklet.
+
+
+
+                                                 Table 1
+                                           State Fiscal Impacts
+
+                                                    Current Year          Budget Year             Out Year
+Type of Impact                                       FY 2026-27            FY 2027-28           FY 2028-29
+State Revenue                                       $958.4 million     $1,972.0 million      $2,085.8 million
+State Expenditures                                              $0             $98,000               $17,600
+Transferred Funds                                               $0                     $0                 $0
+Change in TABOR Refunds                                         $0                     $0                 $0
+Change in State FTE                                        0.0 FTE                 0.0 FTE           0.0 FTE
+                                                                   Amendment 87
+ Page 2
+ September 10, 2026
+
+                                              Table 1A
+                                           State Revenue
+
+                                               Current Year        Budget Year            Out Year
+Fund Source                                     FY 2026-27          FY 2027-28          FY 2028-29
+General Fund                                              $0                  $0                  $0
+Cash Funds – Colorado Future’s Account         $958.4 million    $1,972.0 million    $2,085.8 million
+Total Revenue                                 $958.4 million    $1,972.0 million    $2,085.8 million
+
+
+                                              Table 1B
+                                         State Expenditures
+
+                                               Current Year        Budget Year            Out Year
+Fund Source                                     FY 2026-27          FY 2027-28          FY 2028-29
+General Fund                                             $0             $98,000              $17,600
+Cash Funds                                               $0                   $0                  $0
+Federal Funds                                            $0                   $0                  $0
+Total Expenditures                                       $0                  $0             $17,600
+Total FTE                                           0.0 FTE             0.0 FTE              0.0 FTE
+
+
+
+Summary of Measure
+
+The measure creates a graduated state income tax starting in tax year 2027. Under current law,
+individual and corporate taxpayers are taxed at a single rate of 4.40 percent. The measure
+amends the state constitution to allow for different levels of taxable income to be taxed at
+different rates.
+Tax rates under the measure and current law are shown in Table 2. The new tax rates apply to
+both individual and corporate taxpayers. The tax rate is graduated. For example, a taxpayer with
+taxable income of $600,000 would pay a tax of 3.7 percent on the taxpayer’s first $25,000 in
+taxable income, 4.2 percent on the next $75,000, 4.4 percent on the next $400,000, and
+7.4 percent on the last $100,000. The tax brackets in Table 2 are permanent and not adjusted for
+inflation in future years.
+                                                                    Amendment 87
+    Page 3
+    September 10, 2026
+
+                                           Table 2
+                    Income Tax Rates Under Current Law and Amendment 87
+
+                                                          Income Tax Rate           Tax Rates Under
+Taxable Income                                          Under Current Law            Amendment 87
+Up to $25,000                                                         4.40%                    3.70%
+$25,001 to $100,000                                                   4.40%                    4.20%
+$100,001 to $500,000                                                  4.40%                    4.40%
+$500,001 to $750,000                                                  4.40%                    7.40%
+$750,001 to $1,000,000                                                4.40%                    7.90%
+$1,000,000 and above                                                  4.40%                    8.40%
+
+Increased income tax revenue is credited to the Colorado Future’s Account, created in the
+measure. The new tax revenue will be used for the following purposes:
+•     K-12 public school education, including improving kindergarten through 12th grade
+      education, increasing access to career and technical education programs, and increasing
+      teacher pay;
+•     health care, including programs to help families afford health care, replacing Medicaid
+      funding previously provided by the federal government and to pay for the implementation
+      of new federal requirements, increasing funding for primary care, behavioral health and rural
+      health care, supporting health care, long-term care, and other supports for older adults and
+      people with disabilities; and
+•     early child care and education, including programs to help families afford child care,
+      increasing pay and support for the child care workforce, and improving access to
+      high-quality early childhood education programs.
+
+
+State Revenue
+
+By replacing the state flat income tax with a graduated income tax, the measure increases state
+income tax revenue by $958.4 million in FY 2026-27 and by $1,972.0 million in FY 2027-28, and
+increasing amounts in future years based on income and population growth. The estimate for
+FY 2026-27 represents a half-year impact for tax year 2027. Additional revenue will be credited
+to the Colorado Future’s Account, as shown in Table 1A. The revenue estimate does not account
+for the impacts of 2025 H.R. 1, the One Big Beautiful Bill Act, due to insufficient data. The
+increased revenue is exempt from TABOR as a voter-approved revenue change.
+                                                                      Amendment 87
+ Page 4
+ September 10, 2026
+
+
+Maximum Dollar Change
+The estimates in the previous paragraph represent the revenue impact of the measure under the
+current LCS revenue forecast. Based on forecast error that could occur, the maximum dollar
+amount of the increase in state government revenue and fiscal year spending for FY 2027-28 is
+estimated to be $2.7 billion.
+
+Interaction with Proposition 136
+Proposition 136 limits the state income tax rate at the current law rate of 4.4 percent. If both
+Amendment 87 and Proposition 136 are approved by voters, the proposed tax rates for income over
+$500,000 in Amendment 87 would be higher than the 4.4 percent limit in Proposition 136. In this case, the
+revenue impacts may be different than those identified in this analysis, depending upon the resolution of
+this conflict.
+
+
+
+Taxpayer Impacts
+
+Amendment 87 will decrease the amount of income tax owed by taxpayers with Colorado
+taxable income of less than $510,834 and increase the amount of income tax owed by taxpayers
+with Colorado taxable income of $510,834 and above. An estimated 3.4 million individual and
+corporate taxpayers will have taxable incomes of less than $510,834 annually in 2027, with an
+average decrease in taxes paid of $176. An estimated 64,000 individual and corporate taxpayers
+will have taxable incomes of $510,834 or more annually in 2027, with an average increase in
+taxes paid of $39,171.
+State law requires Legislative Council Staff to estimate the potential tax burden on affected
+taxpayers within specified federal adjusted gross income categories. Federal adjusted gross
+income is total income from all sources, with certain adjustments, as determined when filing
+federal income taxes. Colorado taxable income, calculated when filing state income taxes, is
+based on federal taxable income, which includes federal income tax deductions, and other
+adjustments required or allowed under state law. Table 3 shows the expected change in tax
+burden by federal adjusted gross income category. The measure has no impact on current
+TABOR refunds or TABOR refund mechanisms.
+                                                                              Amendment 87
+ Page 5
+ September 10, 2026
+
+                                              Table 3
+                        Estimated Impact on Individual Taxpayers by Income
+
+                                        Estimated Number             Total Change in       Average Change in
+ Income Category                             of Taxpayers                Tax Burden              Tax Burden
+ $14,999 or less                                     579,309                  -$638,951                      -$1
+ $15,000 to $29,999                                  408,924             -$16,093,434                       -$39
+ $30,000 to $39,999                                  272,616             -$29,611,480                      -$109
+ $40,000 to $49,999                                  238,539             -$38,651,945                      -$162
+ $50,000 to $69,999                                  443,000             -$85,925,358                      -$194
+ $70,000 to $99,999                                  408,912             -$93,232,609                      -$228
+ $100,000 to $149,999                                408,912            -$115,554,178                      -$283
+ $150,000 to $199,999                                238,532             -$77,522,900                      -$325
+ $200,000 to $249,000                                102,228             -$33,224,100                      -$325
+ $250,000 to $499,999                                204,456             -$66,448,200                      -$325
+ $500,000 to $999,999                                 55,900             -$15,893,609                      -$284
+ $1,000,000 or more                                   46,328           $1,208,468,497                  +$26,085
+Income is federal adjusted gross income, not Colorado taxable income; therefore, the income ranges and tax rates do
+not align with those in Table 2. The estimated number of taxpayers column counts joint filers as one taxpayer.
+Estimates are based on Colorado Department of Revenue data for all residents for tax year 2023 and Legislative
+Council Staff estimates.
+
+
+
+State Expenditures
+
+The measure requires new General Fund expenditures in the DOR of $98,000 in FY 2027-28
+and $27,600 ongoing in later years to implement the graduated income tax. These impacts are
+shown in Table 4 and detailed below.
+
+                                                 Table 4
+                                            State Expenditures
+                                          Department of Revenue
+
+                                                             Current Year        Budget Year            Out Year
+Cost Component                                                FY 2026-27          FY 2027-28          FY 2028-29
+Computer Programming and Form Changes                                    $0            $60,000            $10,000
+Research and Analysis                                                    $0            $38,000             $7,600
+Total Costs                                                              $0           $98,000            $17,600
+

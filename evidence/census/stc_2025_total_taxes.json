@@ -1,0 +1,209 @@
+{
+ "source": "Census Annual Survey of State Government Tax Collections, FY2025, API https://api.census.gov/data/timeseries/govsstatetax?get=AGG_DESC,GOVTYPE,ITEM_CODE,NAME,YEAR,AMOUNT&for=state:*&time=2025 (AGG_DESC STC001 = total taxes, thousands of dollars), retrieved 2026-10-16",
+ "states": {
+  "Alabama": {
+   "state_fips": "01",
+   "total_taxes_thousands": 17673064
+  },
+  "Alaska": {
+   "state_fips": "02",
+   "total_taxes_thousands": 1686939
+  },
+  "Arizona": {
+   "state_fips": "04",
+   "total_taxes_thousands": 26635906
+  },
+  "Arkansas": {
+   "state_fips": "05",
+   "total_taxes_thousands": 12560305
+  },
+  "California": {
+   "state_fips": "06",
+   "total_taxes_thousands": 275041333
+  },
+  "Colorado": {
+   "state_fips": "08",
+   "total_taxes_thousands": 20261443
+  },
+  "Connecticut": {
+   "state_fips": "09",
+   "total_taxes_thousands": 24753804
+  },
+  "District of Columbia": {
+   "state_fips": "11",
+   "total_taxes_thousands": 11261267
+  },
+  "Kansas": {
+   "state_fips": "20",
+   "total_taxes_thousands": 13118999
+  },
+  "Michigan": {
+   "state_fips": "26",
+   "total_taxes_thousands": 40805907
+  },
+  "Rhode Island": {
+   "state_fips": "44",
+   "total_taxes_thousands": 5470824
+  },
+  "Massachusetts": {
+   "state_fips": "25",
+   "total_taxes_thousands": 46172934
+  },
+  "West Virginia": {
+   "state_fips": "54",
+   "total_taxes_thousands": 6951166
+  },
+  "Wyoming": {
+   "state_fips": "56",
+   "total_taxes_thousands": 2568605
+  },
+  "Delaware": {
+   "state_fips": "10",
+   "total_taxes_thousands": 6949753
+  },
+  "Florida": {
+   "state_fips": "12",
+   "total_taxes_thousands": 63550663
+  },
+  "Georgia": {
+   "state_fips": "13",
+   "total_taxes_thousands": 34358826
+  },
+  "Hawaii": {
+   "state_fips": "15",
+   "total_taxes_thousands": 11036365
+  },
+  "Idaho": {
+   "state_fips": "16",
+   "total_taxes_thousands": 8881206
+  },
+  "Illinois": {
+   "state_fips": "17",
+   "total_taxes_thousands": 71309239
+  },
+  "Indiana": {
+   "state_fips": "18",
+   "total_taxes_thousands": 27421554
+  },
+  "Iowa": {
+   "state_fips": "19",
+   "total_taxes_thousands": 12120559
+  },
+  "Kentucky": {
+   "state_fips": "21",
+   "total_taxes_thousands": 17336567
+  },
+  "Louisiana": {
+   "state_fips": "22",
+   "total_taxes_thousands": 16380208
+  },
+  "Maine": {
+   "state_fips": "23",
+   "total_taxes_thousands": 6917242
+  },
+  "Maryland": {
+   "state_fips": "24",
+   "total_taxes_thousands": 32921289
+  },
+  "Minnesota": {
+   "state_fips": "27",
+   "total_taxes_thousands": 36889555
+  },
+  "Mississippi": {
+   "state_fips": "28",
+   "total_taxes_thousands": 10950782
+  },
+  "Missouri": {
+   "state_fips": "29",
+   "total_taxes_thousands": 18004517
+  },
+  "Montana": {
+   "state_fips": "30",
+   "total_taxes_thousands": 4836766
+  },
+  "Nebraska": {
+   "state_fips": "31",
+   "total_taxes_thousands": 7293864
+  },
+  "Nevada": {
+   "state_fips": "32",
+   "total_taxes_thousands": 14519772
+  },
+  "New Hampshire": {
+   "state_fips": "33",
+   "total_taxes_thousands": 3372460
+  },
+  "New Jersey": {
+   "state_fips": "34",
+   "total_taxes_thousands": 54065138
+  },
+  "New Mexico": {
+   "state_fips": "35",
+   "total_taxes_thousands": 14938479
+  },
+  "New York": {
+   "state_fips": "36",
+   "total_taxes_thousands": 131284169
+  },
+  "North Carolina": {
+   "state_fips": "37",
+   "total_taxes_thousands": 40626167
+  },
+  "Ohio": {
+   "state_fips": "39",
+   "total_taxes_thousands": 38844122
+  },
+  "Oklahoma": {
+   "state_fips": "40",
+   "total_taxes_thousands": 13044419
+  },
+  "Oregon": {
+   "state_fips": "41",
+   "total_taxes_thousands": 20522201
+  },
+  "Pennsylvania": {
+   "state_fips": "42",
+   "total_taxes_thousands": 56545523
+  },
+  "South Carolina": {
+   "state_fips": "45",
+   "total_taxes_thousands": 19243335
+  },
+  "South Dakota": {
+   "state_fips": "46",
+   "total_taxes_thousands": 2687143
+  },
+  "Texas": {
+   "state_fips": "48",
+   "total_taxes_thousands": 89943632
+  },
+  "Utah": {
+   "state_fips": "49",
+   "total_taxes_thousands": 14133061
+  },
+  "Vermont": {
+   "state_fips": "50",
+   "total_taxes_thousands": 5205872
+  },
+  "Tennessee": {
+   "state_fips": "47",
+   "total_taxes_thousands": 25573839
+  },
+  "Virginia": {
+   "state_fips": "51",
+   "total_taxes_thousands": 40256178
+  },
+  "North Dakota": {
+   "state_fips": "38",
+   "total_taxes_thousands": 5517006
+  },
+  "Washington": {
+   "state_fips": "53",
+   "total_taxes_thousands": 39361742
+  },
+  "Wisconsin": {
+   "state_fips": "55",
+   "total_taxes_thousands": 25299273
+  }
+ }
+}

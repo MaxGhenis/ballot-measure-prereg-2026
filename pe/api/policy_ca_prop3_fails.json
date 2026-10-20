@@ -1,0 +1,56 @@
+{
+ "request": {
+  "gov.states.ca.tax.income.rates.single[6].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.single[7].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.single[8].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.joint[6].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.joint[7].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.joint[8].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.separate[6].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.separate[7].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.separate[8].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.head_of_household[6].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.head_of_household[7].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.head_of_household[8].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.surviving_spouse[6].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.surviving_spouse[7].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  },
+  "gov.states.ca.tax.income.rates.surviving_spouse[8].rate": {
+   "2031-01-01.2100-12-31": 0.093
+  }
+ },
+ "response": {
+  "status": "ok",
+  "message": "Policy created",
+  "result": {
+   "policy_id": 98774
+  }
+ }
+}

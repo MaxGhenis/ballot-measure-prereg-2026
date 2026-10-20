@@ -1,0 +1,93 @@
+{
+ "inputs_sha256": {
+  "registry/measures.csv": "f5400f390b0927b83aec88b31d1d1a6ca9685a5a9293a5ec4cdaca4ce9d21268",
+  "registry/prices_at_freeze.csv": "f32d2b566da74cb51c34f56c45e3a1fad2a8229a3e8a62ced2f3117c488488d8",
+  "registry/interactions.csv": "6e5f1da69eaf4f4948b66c74d2c23585fdf52a7cbb1dae81381cd172a3152e2a",
+  "registry/assets.csv": "4f626117abf76c19c439a358fceac034c42f4d3215f966ead4ac884c02ee7455",
+  "results/spread_panel.json": "2e5295b0b05b49dd38965e7a44ae72962f2a95785463cea6d72faace2a0d022b"
+ },
+ "states": [
+  "CA",
+  "NY",
+  "CO",
+  "AL",
+  "AZ",
+  "GA",
+  "LA",
+  "MA",
+  "MD",
+  "MI",
+  "MN",
+  "MO",
+  "NC",
+  "OH",
+  "VA",
+  "KS",
+  "NE",
+  "NM",
+  "AR",
+  "WI",
+  "WV"
+ ],
+ "n_placebo_days": 250,
+ "measures_drawn": [
+  "CA-P3",
+  "CA-P40",
+  "CO-Amendment87",
+  "CO-PropositionNN",
+  "CO-Proposition136",
+  "CO-Proposition137",
+  "CA-local-RTM"
+ ],
+ "measures_in_testable_states_without_freeze_price": [
+  "CA-SF-PropH",
+  "CA-SF-PropJ",
+  "CA-SF-PropI"
+ ],
+ "measures_in_untestable_states": [
+  "WA-IP26645",
+  "WY-InitiativeProposition1",
+  "FL-Amendment2",
+  "FL-Amendment3"
+ ],
+ "A_election_night": {
+  "sims": 2000,
+  "days": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "realized_by_nov6": 1.0,
+  "mde_bp_per_bn": {
+   "p10": 1.0111877421382764,
+   "median": 1.9566433823657154,
+   "p90": 5.949166798060031
+  },
+  "benchmark_bp_per_bn_median": {
+   "nmr_low_7bp": -0.4775560239629183,
+   "nmr_high_15bp": -1.0233343370633965
+  },
+  "share_sims_mde_below_nmr_low": 0.045,
+  "share_sims_mde_below_nmr_high": 0.225
+ },
+ "B_slow_count": {
+  "sims": 2000,
+  "days": [
+   0.4,
+   0.1,
+   0.1
+  ],
+  "realized_by_nov6": 0.6000000000000001,
+  "mde_bp_per_bn": {
+   "p10": 2.1270416296847756,
+   "median": 4.328079270749389,
+   "p90": 13.175783678865633
+  },
+  "benchmark_bp_per_bn_median": {
+   "nmr_low_7bp": -0.47755602396291835,
+   "nmr_high_15bp": -1.0233343370633965
+  },
+  "share_sims_mde_below_nmr_low": 0.0255,
+  "share_sims_mde_below_nmr_high": 0.045
+ }
+}

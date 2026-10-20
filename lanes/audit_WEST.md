@@ -1,0 +1,9 @@
+Read `lanes/audit_brief_common.md` first; it holds the rules and the output format. Your rows: `lanes/audit_WEST_rows.csv` (62 rows: AK, AZ, CO, HI, ID, KS, MT, ND, NE, NM, NV, OK, SD, UT, WA, WY and League City, Texas).
+
+Specific tasks:
+1. **Colorado.** Use the Legislative Council's 2026 fiscal impact statements (https://content.leg.colorado.gov/sites/default/files/2026-fiscal-impact-statements-english-accessible.pdf) and the Blue Book. Proposition 136 ("Income Tax Rate Limit") cannot be N if it changes revenue. Amendment 84 has quantified state and county costs. Report exactly how Amendment 87's receipts depend on Proposition 136 (pages around 19), and how Proposition NN and Proposition 137 interact through TABOR refunds (pages around 26–27 and 63): what each retains alone, what they retain together, and whether the statements give joint figures. Propose a joint payoff rule that uses only official figures, and say which combinations the statements leave unquantified.
+2. **New Mexico Amendment 4** (legislative compensation): the review cites about $7.6 million a year (https://www.nmlegis.gov/Sessions/26%20Regular/firs/HJR05.PDF); apply the rule.
+3. **Arizona Proposition 144**: uncertain effects cannot stay N; read the Joint Legislative Budget Committee's fiscal analysis and apply the rule.
+4. **Washington I-645** and **Wyoming Initiative 1**: confirm F, its year, the horizon and coverage (Wyoming's local effect is unestimated).
+5. Every other row: apply the rule with a quote.
+6. **New measure: Honolulu Charter Question 4** (November 3, 2026; Kalshi market KXHONOLULUQ4-26NOV03, "Will Honolulu Charter Question 4 pass?"). It is not yet in the registry. Find its official title and text on the City and County of Honolulu's or the Office of Elections' pages, its fiscal statement if any, and return a full row for it with `measure_id` HI-local-Honolulu-Q4 and `state` HI.

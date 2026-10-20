@@ -1,0 +1,26 @@
+{
+ "retrieved": "2026-10-19T12:47:31+00:00",
+ "windows": [
+  {
+   "from": "2026-11-02T00:00:00Z",
+   "to": "2026-12-01T00:00:00Z",
+   "events": 1728,
+   "read_in_full": true
+  },
+  {
+   "from": "2026-12-01T00:00:00Z",
+   "to": "2026-12-31T23:59:59.500000Z",
+   "events": 423,
+   "read_in_full": true
+  },
+  {
+   "from": "2026-12-31T23:59:59.500000Z",
+   "to": "2027-01-31T23:59:59Z",
+   "events": 1756,
+   "read_in_full": true
+  }
+ ],
+ "all_windows_read_in_full": true,
+ "hits": 39,
+ "not_in_enumeration": []
+}

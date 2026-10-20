@@ -1,0 +1,12 @@
+measure_id,primary_market,reason
+ID-AdvisoryQuestion,kalshi:KXSTATEBALLOTMEASURE-ID-OSGQ,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropH,kalshi:KXSFBALLOTMEASURES-26NOV03-PRH,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropJ,kalshi:KXSFBALLOTMEASURES-26NOV03-PRJ,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropI,kalshi:KXSFBALLOTMEASURES-26NOV03-PRI,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-A,kalshi:KXSFBALLOTMEASURES-26NOV03-PRA,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-B,kalshi:KXSFBALLOTMEASURES-26NOV03-PRB,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-C,kalshi:KXSFBALLOTMEASURES-26NOV03-PRC,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-D,kalshi:KXSFBALLOTMEASURES-26NOV03-PRD,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-E,kalshi:KXSFBALLOTMEASURES-26NOV03-PRE,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-F,kalshi:KXSFBALLOTMEASURES-26NOV03-PRF,never traded and no quote with an ask above 0 within 10 cents
+CA-SF-PropsABCDEFG-G,kalshi:KXSFBALLOTMEASURES-26NOV03-PRG,never traded and no quote with an ask above 0 within 10 cents

@@ -1,0 +1,9 @@
+**APPROVE (ready to freeze)** — for `db434fa..505b184` only. No qualifying findings; no fixes required.
+
+1. **Seal — pass.** Every `capture.py save()` records its file and hash. The new checks reject changed, deleted, added or renamed data files, and reject a rewritten manifest against its original receipt. `.DS_Store` is excluded and Git-ignored. Git commands work from the nested capture directory. Ordinary timestamp submission failure leaves no receipt, so retrying stamps the unchanged manifest successfully. [Upstream stamp implementation](https://raw.githubusercontent.com/opentimestamps/opentimestamps-client/master/otsclient/cmds.py). Receipt matching checks digest binding offline; full attestation verification remains `ots verify`.
+
+2. **W2 — pass.** The 24-day calendar omits the only scheduled NYSE closure in this interval, November 26. November 27 remains a trading day despite its early close. [NYSE calendar](https://www.nyse.com/trade/hours-calendars). November 6 is the correct baseline for November 9’s return in `panel.leg`. Requiring the baseline and every registered day prevents missing-day crossovers for retained states.
+
+3. **Tests — pass.** Eight targeted parameter cases passed in a RAM-only filesystem harness with mocked Git. Both previously surviving mutants were caught: choosing the latest qualifying market capture and removing Polymarket’s empty-history allowance. No test writes through a hard link created by `place()`. This was targeted verification, not a conventional full-suite pytest run.
+
+4. **Text — pass.** REGISTRATION §5.4 and RUNBOOK step 2 agree with the fixed calendar, baseline, seal requirements, and timestamp-failure retry behavior.

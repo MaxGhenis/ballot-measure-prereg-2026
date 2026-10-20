@@ -1,0 +1,42 @@
+state,rank,instrument_type,tickers,benchmark,duration_state,duration_bench,source,status
+CA,1,ETF (tier 1),CMF,MUB,6.98,7.13,"iShares CMF page (evidence/funds/ishares_CMF_2026-10-16.html): Effective Duration 6.98 yrs as of Oct 15, 2026; iShares MUB page (evidence/funds/ishares_MUB_2026-10-16.html): Effective Duration 7.13 yrs as of Oct 15, 2026",registered
+NY,1,ETF (tier 1),NYF,MUB,7.30,7.13,"iShares NYF page (evidence/funds/ishares_NYF_2026-10-16.html): Effective Duration 7.30 yrs as of Oct 15, 2026; iShares MUB page (evidence/funds/ishares_MUB_2026-10-16.html): Effective Duration 7.13 yrs as of Oct 15, 2026",registered
+CO,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FRCOX,FKTIX,8.29,8.53,"Franklin factsheet 086-FF as of September 30, 2026 (evidence/funds/franklin_086-FF.pdf): Effective Duration 8.29 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+AL,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FRALX,FKTIX,8.00,8.53,"Franklin factsheet 564-FF as of September 30, 2026 (evidence/funds/franklin_564-FF.pdf): Effective Duration 8.00 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+AZ,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FTAZX,FKTIX,8.29,8.53,"Franklin factsheet 656-FF as of September 30, 2026 (evidence/funds/franklin_656-FF.pdf): Effective Duration 8.29 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+GA,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FTGAX,FKTIX,8.28,8.53,"Franklin factsheet 284-FF as of September 30, 2026 (evidence/funds/franklin_284-FF.pdf): Effective Duration 8.28 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+LA,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FKLAX,FKTIX,8.44,8.53,"Franklin factsheet 286-FF as of September 30, 2026 (evidence/funds/franklin_286-FF.pdf): Effective Duration 8.44 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+MA,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FMISX,FKTIX,7.93,8.53,"Franklin factsheet 018-FF as of September 30, 2026 (evidence/funds/franklin_018-FF.pdf): Effective Duration 7.93 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+MD,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FMDTX,FKTIX,8.17,8.53,"Franklin factsheet 669-FF as of September 30, 2026 (evidence/funds/franklin_669-FF.pdf): Effective Duration 8.17 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+MI,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FTTMX,FKTIX,8.48,8.53,"Franklin factsheet 657-FF as of September 30, 2026 (evidence/funds/franklin_657-FF.pdf): Effective Duration 8.48 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+MN,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FMINX,FKTIX,7.39,8.53,"Franklin factsheet 668-FF as of September 30, 2026 (evidence/funds/franklin_668-FF.pdf): Effective Duration 7.39 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+MO,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FRMOX,FKTIX,8.17,8.53,"Franklin factsheet 679-FF as of September 30, 2026 (evidence/funds/franklin_679-FF.pdf): Effective Duration 8.17 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+NC,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FXNCX,FKTIX,8.18,8.53,"Franklin factsheet 071-FF as of September 30, 2026 (evidence/funds/franklin_071-FF.pdf): Effective Duration 8.18 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+OH,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FTOIX,FKTIX,8.06,8.53,"Franklin factsheet 633-FF as of September 30, 2026 (evidence/funds/franklin_633-FF.pdf): Effective Duration 8.06 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+VA,1,"open-end fund NAV (tier 2), same sponsor as benchmark",FRVAX,FKTIX,8.57,8.53,"Franklin factsheet 084-FF as of September 30, 2026 (evidence/funds/franklin_084-FF.pdf): Effective Duration 8.57 Years; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+KS,1,open-end fund NAV (tier 2),FKSTX,FKTIX,6.22,8.53,"Nuveen fact sheet as of 30 Jun 2026 (evidence/funds/FKSTX_src.pdf): Effective duration (years) 6.22; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+NE,1,open-end fund NAV (tier 2),FNTAX,FKTIX,7.96,8.53,"Nuveen fact sheet as of 30 Jun 2026 (evidence/funds/FNTAX_src.pdf): Effective duration (years) 7.96; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+NM,1,open-end fund NAV (tier 2),FNMTX,FKTIX,7.27,8.53,"Nuveen fact sheet as of 30 Jun 2026 (evidence/funds/FNMTX_src.pdf): Effective duration (years) 7.27; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+FL,,none,,,,,lanes/out-assets.md,"untestable: no state-specific muni ETF, closed-end fund or mutual fund found (lanes/out-assets.md (d); Franklin Florida Tax-Free Income merged into a national fund)"
+WA,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found (lanes/out-assets.md (d))
+WY,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+RI,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+AK,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+IA,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+IN,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+NH,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+NV,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+SD,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+VT,,none,,,,,lanes/out-assets.md,untestable: no state-specific muni fund found
+TX-local,,none,,,,,lanes/out-assets.md,untestable: no Texas muni fund found
+AR,1,open-end fund NAV (tier 2),MFARX,FKTIX,7.56,8.53,"MFS product page data (evidence/funds/MFARX_src.html): averageEffectiveDuration 7.56, asOfDate 2026-09-30; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+HI,,none,,,,,lanes/out-assets.md,"untestable: HULAX: latest effective duration dated March 31, 2026, before the June 30 cutoff"
+ID,,none,,,,,lanes/out-assets.md,untestable: VIDAX: no published duration
+KY,,none,,,,,lanes/out-assets.md,untestable: KYTFX: duration methodology unstated
+MT,,none,,,,,lanes/out-assets.md,"untestable: VMTTX: modified duration only, December 2025"
+ND,,none,,,,,lanes/out-assets.md,"untestable: VNDFX: modified duration only, December 2025"
+OK,,none,,,,,lanes/out-assets.md,"untestable: OKMUX: modified duration only, March 2026"
+TN,,none,,,,,lanes/out-assets.md,untestable: TNTIX: duration methodology unstated
+UT,,none,,,,,lanes/out-assets.md,untestable: UTAHX: modified duration to worst only
+WI,1,open-end fund NAV (tier 2),WWTFX,FKTIX,6.68,8.53,"Allspring product page (evidence/funds/WWTFX_src.html): Effective duration 6.68 (as of 9/30/2026); Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered
+WV,1,open-end fund NAV (tier 2),MFWVX,FKTIX,7.51,8.53,"MFS product page data (evidence/funds/MFWVX_src.html): averageEffectiveDuration 7.51, asOfDate 2026-09-30; Franklin factsheet 620-FF as of September 30, 2026 (evidence/funds/franklin_620-FF.pdf): Effective Duration 8.53 Years",registered

@@ -1,0 +1,17 @@
+{
+ "retrieved": "2026-10-19T12:42:13+00:00",
+ "complete": true,
+ "request_failures": [],
+ "gamma_offset_cap_reached": [
+  {},
+  {
+   "tag_slug": "politics"
+  }
+ ],
+ "kalshi_source": "live 2026-10-19T12:42:13+00:00",
+ "kalshi_series_scanned": 15195,
+ "kalshi_candidate_series": 133,
+ "kalshi_markets_kept": 240,
+ "polymarket_open_events_scanned": 3663,
+ "polymarket_markets_kept": 39
+}
